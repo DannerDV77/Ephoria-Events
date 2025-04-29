@@ -11,6 +11,7 @@
         justify-content: space-evenly;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra */
         width: 100%;
+        height: auto;
         align-content: end;
     }
 
@@ -21,13 +22,13 @@
 
     .bar {
         font-family: "Montserrat", sans-serif;
-        font-size: 3.5vw;
+        font-size: 2vw;
         text-decoration: underline
     }
 
     .logoText{
         font-family: "Monserrat", "Arial";
-        font-size: 3.5vw;
+        font-size: 2vw;
     }
 
     .imgBanner{

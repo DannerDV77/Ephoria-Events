@@ -4,7 +4,6 @@
     .containerEvents {
         display: grid;
         place-items: center;
-        margin-left: 0.5em;
     }
 
     .containerEvents h2 {
@@ -15,6 +14,7 @@
     .eventos {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        place-items: center;
         gap: 4em;
         margin-top: 1em;
         width: 100%;
@@ -63,8 +63,14 @@
     /* Estilos para computadoras */
 
     .containerEvents {
-        margin-left: 15em;
-        margin-right: 15em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+    }
+
+    .containerTexto {
+        text-align: center;
     }
 
     .containerEvents h2 {
@@ -75,6 +81,7 @@
     .eventos {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        place-items: center;
         gap: 4em;
         margin-top: 1em;
         width: 100%;
