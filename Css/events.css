@@ -1,0 +1,121 @@
+@media (max-width: 768px) {
+    /* Estilos para teléfonos */
+
+    .containerEvents {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .containerEvents h2 {
+        font-family: "Monserrat", "Cairo", "Arial";
+        font-size: 2em;
+    }
+
+    .eventos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4em;
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .evento {
+        width: 20em;
+        height: 25em;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .evento img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .evento img:hover {
+        transform: scale(1.1);
+    }
+
+    .detalles p {
+        margin: 3px 0;
+        font-family: "Monserrat", "Cairo", "Arial";
+        text-align: left
+    }
+
+    .artista {
+        font-size: 3vh;
+    }
+
+    .lugar {
+        font-size: 2vh;
+        color: rgb(80, 80, 80);
+    }
+
+    .fecha {
+        font-size: 2vh;
+        color: rgb(80, 80, 80);
+    }
+}
+
+@media (min-width: 769px) {
+    /* Estilos para computadoras */
+
+    .containerEvents {
+        margin-left: 15em;
+        margin-right: 15em;
+    }
+
+    .containerEvents h2 {
+        font-family: "Monserrat", "Cairo", "Arial";
+        font-size: 3em;
+    }
+
+    .eventos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4em;
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .evento {
+        width: 20vw;
+        height: 25vh;
+        padding: 10px;
+        margin-top: 5em;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .evento img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .evento img:hover {
+        transform: scale(1.1);
+    }
+
+    .detalles p {
+        margin: 3px 0;
+        font-family: "Monserrat", "Cairo", "Arial";
+        text-align: left
+    }
+
+    .artista {
+        font-size: 3vh;
+    }
+
+    .lugar {
+        font-size: 2vh;
+        color: rgb(80, 80, 80);
+    }
+
+    .fecha {
+        font-size: 2vh;
+        color: rgb(80, 80, 80);
+    }
+
+}
