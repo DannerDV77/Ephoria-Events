@@ -22,13 +22,13 @@
 
     .bar {
         font-family: "Montserrat", sans-serif;
-        font-size: 2vw;
+        font-size: 0.8em;
         text-decoration: underline
     }
 
     .logoText{
         font-family: "Monserrat", "Arial";
-        font-size: 2vw;
+        font-size: 0.8em;
     }
 
     .imgBanner{
