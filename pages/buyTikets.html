@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Ephoria-Events/Css/styles.css">
+    <link rel="stylesheet" href="/Ephoria-Events/Css/buytikets.css">
+    <link rel="stylesheet" href="/Ephoria-Events/Css/feet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Montserrat&display=swap"
+        rel="stylesheet">
+    <script src="/Ephoria-Events/Scripts/tikets.js"></script>
+    <title>Euphoria Events</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h3 class="logoText">Euphoria Events</h3>
+        </div>
+        <div>
+            <h3 class="bar">Conocenos</h3>
+        </div>
+        <div>
+            <h3 class="bar">|</h3>
+        </div>
+        <div>
+            <h3 class="bar">Crea tu evento</h3>
+        </div>
+    </header>
+    <div class="compradeboletos">
+        <h2>COMPRA TUS BOLETOS</h2>
+    </div>
+
+    <div class="containerDatos">
+        <div class="boleto" id="boleto">
+
+            <div class="section1">
+                <div class="containerImgArtista" id="containerImgArtista">
+                    
+                </div>
+
+                <div class="infoBoleto">
+                    <p class="textoInfo" id="artista"></p>
+                    <p class="textoInfo" id="lugar"></p>
+                    <p class="textoInfo" id="fecha"></p>
+                </div>
+
+                <div class="datosBoleto">
+
+                    <label class="textoInfo" for="opciones">Cantidad de boletos</label>
+                    <select id="valorCantidad" name="opciones">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                    <label class="textoInfo" for="opciones2">Zona</label>
+                    <select id="valorZona" name="opciones2">
+                        <option value="2000">Gradas $2,000</option>
+                        <option value="1500">General $1,500</option>
+                        <option value="10000">Preferencial $10,000</option>
+                    </select>
+
+                    <p class="textoInfo" id="Total"></p>
+
+                </div>
+            </div>
+
+            <div class="section2">
+                <!-- From Uiverse.io by vinodjangid07 -->
+                <button class="Btn">
+                    Pay
+                    <svg class="svgIcon" viewBox="0 0 576 512">
+                        <path
+                            d="M512 80c8.8 0 16 7.2 16 16v32H48V96c0-8.8 7.2-16 16-16H512zm16 144V416c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V224H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm56 304c-13.3 0-24 10.7-24 24s10.7 24 24 24h48c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm128 0c-13.3 0-24 10.7-24 24s10.7 24 24 24H360c13.3 0 24-10.7 24-24s-10.7-24-24-24H248z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
