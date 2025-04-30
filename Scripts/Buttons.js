@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Editar a pagina Lalo
     btnConocenos.addEventListener('click', () => {
-        const url = '/Ephoria-Events/index.html'
+        const url = '/Ephoria-Events/pages/conocenos.html'
         window.location.href = url
     })
 
