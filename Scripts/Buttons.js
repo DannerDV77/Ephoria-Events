@@ -16,6 +16,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     btnHome = this.getElementById('btnHome')
 
+    btnConocenos = this.getElementById('btnConocenos')
+
+    // Editar a pagina Lalo
+    btnConocenos.addEventListener('click', () => {
+        const url = '/Ephoria-Events/index.html'
+        window.location.href = url
+    })
+
     btnHome.addEventListener('click', () => {
         const url = '/Ephoria-Events/index.html'
         window.location.href = url
