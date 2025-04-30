@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/Ephoria-Events/Css/styles.css">
     <link rel="stylesheet" href="/Ephoria-Events/Css/buytikets.css">
     <link rel="stylesheet" href="/Ephoria-Events/Css/feet.css">
+    <link rel="stylesheet" href="/Ephoria-Events/Css/modal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -16,7 +17,8 @@
         rel="stylesheet">
     <script src="/Ephoria-Events/Scripts/tikets.js"></script>
     <script src="/Ephoria-Events/Scripts/Buttons.js"></script>
-    
+    <script src="/Ephoria-Events/Scripts/openModal.js"></script>
+
     <title>Euphoria Events</title>
 </head>
 
@@ -44,7 +46,7 @@
 
             <div class="section1">
                 <div class="containerImgArtista" id="containerImgArtista">
-                    
+
                 </div>
 
                 <div class="infoBoleto">
@@ -86,13 +88,13 @@
                 <p class="textoInfo">CVV: 222</p>
                 <p class="textoInfo">Fecha de Expiracion: 12/35</p>
                 <p class="textoInfo">Nombre del titular: Cliente Guap@</p>
-                <p  class="textoInfo">Escribre tu email (Uno real)</p>
+                <p class="textoInfo">Escribre tu email (Uno real)</p>
                 <input type="text" name="email" placeholder="Escribe tu email">
                 <p class="textoInfo">confirma tu email (Uno real)</p>
                 <input type="text" name="email2" placeholder="Escribe tu email">
             </div>
             <div class="sectionbtn">
-                <button class="Btn">
+                <button class="Btn" id="openModalBtn">
                     Pagar
                     <svg class="svgIcon" viewBox="0 0 576 512">
                         <path
@@ -126,8 +128,10 @@
             </div>
             <div class="contratos">
                 <p class="titulo">Contratos</p>
-                <a class="textoLista" href="https://drive.google.com/file/d/1eSZjKOpHatNapOzF1Av2m9boOsyQ7Q3E/view?usp=drive_link ">Artistas</a>
-                <a class="textoLista" href="https://drive.google.com/file/d/1nruSJEDOmSjVOXZsszd6tkOBRso8zSxg/view">Eventos Privados</a>
+                <a class="textoLista"
+                    href="https://drive.google.com/file/d/1eSZjKOpHatNapOzF1Av2m9boOsyQ7Q3E/view?usp=drive_link ">Artistas</a>
+                <a class="textoLista"
+                    href="https://drive.google.com/file/d/1nruSJEDOmSjVOXZsszd6tkOBRso8zSxg/view">Eventos Privados</a>
             </div>
         </div>
     </div>
@@ -136,6 +140,14 @@
         <p class="textoLista">©2025 - Euphoria Events</p>
         <p class="textoLista">Create by Francisco D Vivas</p>
     </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Pago exitoso</p>
+        </div>
+    </div>
+
 
 </body>
 
