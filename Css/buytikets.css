@@ -1,4 +1,4 @@
-/* From Uiverse.io by vinodjangid07 */ 
+/* From Uiverse.io by vinodjangid07 */
 .Btn {
     width: 130px;
     height: 40px;
@@ -15,17 +15,17 @@
     position: relative;
     overflow: hidden;
     transition-duration: .3s;
-  }
-  
-  .svgIcon {
+}
+
+.svgIcon {
     width: 16px;
-  }
-  
-  .svgIcon path {
+}
+
+.svgIcon path {
     fill: white;
-  }
-  
-  .Btn::before {
+}
+
+.Btn::before {
     width: 130px;
     height: 130px;
     position: absolute;
@@ -36,26 +36,127 @@
     top: 0;
     transition-duration: .3s;
     mix-blend-mode: difference;
-  }
-  
-  .Btn:hover::before {
+}
+
+.Btn:hover::before {
     transition-duration: .3s;
-    transform: translate(100%,-50%);
+    transform: translate(100%, -50%);
     border-radius: 0;
-  }
-  
-  .Btn:active {
-    transform: translate(5px,5px);
+}
+
+.Btn:active {
+    transform: translate(5px, 5px);
     transition-duration: .3s;
-  }
+}
 
 @media (max-width: 768px) {
+
     /* Estilos para teléfonos */
 
+    .compradeboletos {
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .compradeboletos h2 {
+        font-size: 2em;
+        font-family: "Monserrat", "Cairo", "Arial";
+    }
+
+    .containerDatos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .boleto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        /* Añade una sombra */
+        border-radius: 10px;
+        width: 80%;
+        height: auto;
+    }
+
+    .section1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .containerImgArtista {
+        border: 3px, solid, black;
+        border-radius: 10px;
+        width: 18em;
+        height: 15em;
+
+    }
+
+    .imgArtista {
+        width: 100%;
+        height: 100%;
+    }
+
+    .textoInfo {
+        font-size: 1em;
+        font-family: "Monserrat", "Cairo", "Arial";
+    }
+
+    .datosBoleto {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+
+    }
+
+    .section2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+
+    .datosdePago {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        /* Añade una sombra */
+        border-radius: 10px;
+        width: 80%;
+        height: auto;
+        margin-bottom: 1em;
+    }
+
+    .datosdeTarjeta {
+        width: 60%;
+        padding-left: 1em;
+        padding-bottom: 2em;
+    }
+
+    .datosdeTarjeta input {
+        width: 15em;
+        height: 3em;
+
+    }
+
+    button {
+        margin-bottom: 1em;
+    }
 
 }
 
 @media (min-width: 769px) {
+
     /* Estilos para computadoras */
     .compradeboletos {
         margin-top: 5em;
@@ -71,6 +172,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         width: 100%;
         height: auto;
     }
@@ -78,8 +180,10 @@
     .boleto {
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        /* Añade una sombra */
         border-radius: 10px;
         width: 50%;
         height: auto;
@@ -90,7 +194,7 @@
         justify-content: space-evenly;
         align-items: center;
         flex-direction: row;
-        width: 80%;
+        width: 100%;
     }
 
     .containerImgArtista {
@@ -102,11 +206,11 @@
 
     }
 
-    .imgArtista{
+    .imgArtista {
         width: 100%;
         height: 100%;
     }
-    
+
     .textoInfo {
         font-size: 2em;
         font-family: "Monserrat", "Cairo", "Arial";
@@ -114,13 +218,48 @@
 
     .datosBoleto {
         display: flex;
+        justify-content: center;
         flex-direction: column;
+        width: 80%;
+    }
+
+    .datosBoleto input {
+        width: 30em;
 
     }
 
-    .section2 {
+    .sectionbtn {
         display: flex;
         justify-content: center;
         margin-bottom: 2em;
+    }
+
+    .datosdePago {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        /* Añade una sombra */
+        border-radius: 10px;
+        width: 50%;
+        height: auto;
+        margin-bottom: 3em;
+    }
+
+    .datosdeTarjeta {
+        width: 60%;
+        padding-left: 1em;
+        padding-bottom: 2em;
+    }
+
+    .datosdeTarjeta input {
+        width: 30em;
+        height: 3em;
+        
+    }
+
+    button {
+        margin-bottom: 1em;
     }
 }
