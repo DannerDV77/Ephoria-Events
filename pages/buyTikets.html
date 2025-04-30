@@ -15,13 +15,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Montserrat&display=swap"
         rel="stylesheet">
     <script src="/Ephoria-Events/Scripts/tikets.js"></script>
+    <script src="/Ephoria-Events/Scripts/Buttons.js"></script>
+    
     <title>Euphoria Events</title>
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <h3 class="logoText">Euphoria Events</h3>
+            <h3 class="logoText" id="btnHome" onclick="btnHome">Euphoria Events</h3>
         </div>
         <div>
             <h3 class="bar">Conocenos</h3>
@@ -30,7 +32,7 @@
             <h3 class="bar">|</h3>
         </div>
         <div>
-            <h3 class="bar">Crea tu evento</h3>
+            <h3 class="bar" onclick="btnCrear" id="btnCrear">Crea tu evento</h3>
         </div>
     </header>
     <div class="compradeboletos">

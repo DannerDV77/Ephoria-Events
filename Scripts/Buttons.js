@@ -14,6 +14,13 @@ document.addEventListener('DOMContentLoaded', function () {
     
     btnCrear = this.getElementById('btnCrear')
 
+    btnHome = this.getElementById('btnHome')
+
+    btnHome.addEventListener('click', () => {
+        const url = '/Ephoria-Events/index.html'
+        window.location.href = url
+    })
+
     btnCrear.addEventListener('click', () => {
         const url = '/Ephoria-Events/pages/createEvent.html'
         window.location.href = url
